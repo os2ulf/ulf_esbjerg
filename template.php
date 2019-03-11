@@ -6,10 +6,8 @@ function ulf_esbjerg_preprocess_html(&$variables) {
 
   if (isset($active_trail[1])) {
     $second_element = $active_trail[1];
-    if ($second_element['link_path'] == 'node/3') {
+    if (isset($second_element['link_path']) && $second_element['link_path'] == 'node/3') {
       $variables['classes_array'][] = drupal_clean_css_identifier('your-region');
     }
   }
 }
-
-?>
