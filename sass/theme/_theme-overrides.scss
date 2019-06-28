@@ -400,6 +400,17 @@ a {
   @extend %teaser--wrapper;
 
   background: $white; // For news.
+  
+}
+
+.teaser--list {
+  &__fullwidth {
+    display: block;
+  }
+
+  .teaser {
+    margin-bottom: 0;
+  }
 }
 
 
