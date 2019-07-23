@@ -406,10 +406,10 @@ a {
 .teaser--list {
   &__fullwidth {
     display: block;
-  }
 
-  .teaser {
-    margin-bottom: 0;
+    .teaser {
+      margin-bottom: 0;
+    }
   }
 }
 
