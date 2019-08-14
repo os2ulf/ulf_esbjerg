@@ -9,21 +9,6 @@
 /* Fetch default print styles */
 @import url("../../../../../profiles/ulf/themes/ulf_default/css/custom-styles.css");
 
-@font-face {
-    font-family: 'Asap';
-    src: url("../fonts/Asap-Regular.ttf");
-    /* Pretty Modern Browsers */ }
-@font-face {
-    font-family: 'Asap';
-    src: url("../fonts/Asap-Bold.ttf");
-    /* Pretty Modern Browsers */
-    font-weight: bold; }
-@font-face {
-    font-family: 'Asap';
-    src: url("../fonts/Asap-Italic.ttf");
-    /* Pretty Modern Browsers */
-    font-style: italic; }
-
 body {
     background: white;
     width: 700px;
@@ -37,7 +22,7 @@ body {
 
 /* Logo display. */
 .print-logo {
-    background: url("../images/header-bg.jpg");
+    background: url("../images/header-bg.png");
 }
 
 .print-logo img{
@@ -140,7 +125,7 @@ a {
 }
 
 .block--dark {
-    background: #d9d9d9;
+    background: #004069;
     color: #fff;
     display: block;
     margin-bottom: 20px;
@@ -227,5 +212,5 @@ a {
 }
 
 .field--collection-description {
-    font-weight: bold;
+    font-weight: normal;
 }
