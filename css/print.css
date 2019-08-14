@@ -125,7 +125,7 @@ a {
 }
 
 .block--dark {
-    background: #d9d9d9;
+    background: #004069;
     color: #fff;
     display: block;
     margin-bottom: 20px;
@@ -212,5 +212,5 @@ a {
 }
 
 .field--collection-description {
-    font-weight: bold;
+    font-weight: normal;
 }
