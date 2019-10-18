@@ -17,3 +17,4 @@
 </div>
 <a href="/dagtilbud" class="is-daycare teaser--list-button"><?php print t('View all daycare courses');?></a>
 <a href="/skole" class="is-school teaser--list-button"><?php print t('View all school courses');?></a>
+<a href="/ungdomsuddannelse" class="is-youth teaser--list-button"><?php print t('View all youth courses');?></a>
