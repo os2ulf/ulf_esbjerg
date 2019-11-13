@@ -337,10 +337,10 @@ a {
 /* Teaser representing a target group. */
 .teaser--group {
 
-  @include breakpoint(650px) {
-    margin-bottom: 0;
-    width: 50%;
-  }
+  //@include breakpoint(650px) {
+  //  margin-bottom: 0;
+  //  width: 50%;
+  //}
 
   &-inner {
 
@@ -400,7 +400,7 @@ a {
   @extend %teaser--wrapper;
 
   background: $white; // For news.
-  
+
 }
 
 .teaser--list {
