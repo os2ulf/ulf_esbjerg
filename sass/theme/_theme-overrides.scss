@@ -315,12 +315,19 @@ a {
   &--reset {
     color: $gray-darkest;
   }
+
+
 }
 
 .search-results {
   &--result {
     @extend %teaser--wrapper;
   }
+
+  &--type {
+    color: #757575;
+  }
+
 }
 
 
@@ -401,6 +408,13 @@ a {
 
   background: $white; // For news.
 
+  &--type {
+    color: #757575;
+
+    &-read-more {
+      color: #757575;
+    }
+  }
 }
 
 .teaser--list {
@@ -426,18 +440,34 @@ a {
 .is-dagtilbud {
   .ribbon {
     @include background-set-color('daycare', 1);
+    a {
+      color: #2e2e2e;
+    }
+
+    .ribbon--course {
+     color: #2e2e2e;
+    }
   }
+
 }
 
 .is-grundskole {
   .ribbon {
     @include background-set-color('school', 1);
+    a {
+      color: #2e2e2e;
+    }
+
+    .ribbon--course {
+      color: #2e2e2e;
+    }
   }
 }
 
 .is-ungdomsuddannelse {
   .ribbon {
     @include background-set-color('youth', 1);
+
   }
 }
 
@@ -492,5 +522,16 @@ a {
     &--title {
       border-color: $your-region;
     }
+  }
+}
+
+
+/* Default file: modules/_paragraphs.scss
+================================================================================================================== */
+
+.entity-paragraphs-item {
+  .btn {
+    @extend %button;
+    @include strip-link-styles($white);
   }
 }
