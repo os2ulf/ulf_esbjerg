@@ -441,7 +441,7 @@ a {
   .ribbon {
     @include background-set-color('daycare', 1);
     a {
-      color: #2e2e2e;
+      @include strip-link-styles(#2e2e2e);
     }
 
     .ribbon--course {
@@ -455,7 +455,7 @@ a {
   .ribbon {
     @include background-set-color('school', 1);
     a {
-      color: #2e2e2e;
+      @include strip-link-styles(#2e2e2e);
     }
 
     .ribbon--course {
@@ -467,7 +467,6 @@ a {
 .is-ungdomsuddannelse {
   .ribbon {
     @include background-set-color('youth', 1);
-
   }
 }
 
