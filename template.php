@@ -11,3 +11,15 @@ function ulf_esbjerg_preprocess_html(&$variables) {
     }
   }
 }
+
+/**
+ * We need to the label like this. Else it will be overwritten by the feature
+ * Handling the "course" content-type.
+ *
+ * @param $variables
+ */
+function ulf_esbjerg_preprocess_node(&$variables) {
+  if(isset($variables['content']['field_purpose'])) {
+    $variables['content']['field_purpose']['#title'] = 'Mål';
+  }
+}
