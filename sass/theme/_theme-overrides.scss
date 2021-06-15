@@ -217,6 +217,20 @@ a {
       border-color: $youth-color;
     }
 
+    &.is-internship,
+    &.is-internship .search--filter-dropdown,
+    &.is-internship .search--filter-dropdown-submit,
+    &.is-internship .search--widget-selected,
+    &.is-internship .search--filter-search-submit {
+      @include background-set-color('youth', $transparency: 1);
+      border-color: $youth-color;
+    }
+
+    &.is-internship .search--widget-extras input,
+    &.is-internship .search--widget-extras label {
+      display: none;
+    }
+
     &.is-course,
     &.is-course .search--filter-dropdown,
     &.is-course .search--filter-dropdown-submit,
