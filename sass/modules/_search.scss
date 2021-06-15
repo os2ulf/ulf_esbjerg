@@ -1,0 +1,58 @@
+/**
+ *
+ * Search module.
+ *
+ * Contains styles related to search widget and search results.
+ *
+ */
+
+
+/* Styles
+================================================================================================================== */
+
+.search {
+
+  &--filter-wrapper--wide {
+    width: 100%;
+    padding-bottom: 2px;
+    .search--filter-search-text[type="text"] {
+      @include breakpoint(650px) {
+        max-width: 86%;
+      }
+    }
+  }
+
+  &--widget {
+
+    .hidden {
+      display: none;
+    }
+
+    .visible-md {
+      display: none;
+      @include breakpoint(650px) {
+        display: block;
+      }
+      @include breakpoint(1000px) {
+        display: none;
+      }
+    }
+    .visible-lg {
+      display: none;
+      @include breakpoint(1000px) {
+        display: block;
+      }
+    }
+
+    #field_competencies {
+      .disabled {
+        display: none;
+      }
+    }
+  }
+
+}
+
+
+
+
