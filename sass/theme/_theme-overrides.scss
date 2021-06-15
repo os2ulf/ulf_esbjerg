@@ -396,12 +396,6 @@ a {
 }
 
 
-// Header above a list of teaser.
-.teaser--content-header {
-  background-color: $gray-lightest;
-}
-
-
 // Teaser display.
 .teaser {
   @extend %teaser--wrapper;
