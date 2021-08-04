@@ -114,6 +114,25 @@ a {
   }
 }
 
+.block--pdf,
+.block--signup {
+  &-link {
+    @extend %button;
+    @include strip-link-styles($white);
+  }
+}
+
+.is-internship,
+.is-education {
+  .block--pdf,
+  .block--signup {
+    &-link {
+      background: $dark-blue;
+      border: $dark-blue;
+    }
+  }
+}
+
 
 /* Default file: modules/_nav.scss
 ================================================================================================================== */
