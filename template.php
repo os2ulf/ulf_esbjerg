@@ -26,7 +26,7 @@ function ulf_esbjerg_preprocess_node(&$variables) {
 
 function ulf_esbjerg_preprocess_user_profile(&$variables) {
   // Enable a view for user profile templates.
-  $variables['content_by_user_internships']
-    = views_embed_view('hjoerring_content_by_user', 'block_4');
+//  $variables['content_by_user_internships']
+//    = views_embed_view('hjoerring_content_by_user', 'block_4');
 
 }
