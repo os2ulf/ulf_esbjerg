@@ -125,6 +125,7 @@
         <?php if (isset($field_profile_name)) :?>
           <h2 class="layout--element-header"><?php print t('Offers from') . ' ' . $field_profile_name['0']['value'] ;?></h2>
         <?php endif;?>
+        <?php print $content_by_user_daycare; ?>
         <?php print $content_by_user_school; ?>
         <?php print $content_by_user_internships; ?>
         <?php print $content_by_user_courses; ?>
