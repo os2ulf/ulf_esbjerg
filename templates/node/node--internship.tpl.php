@@ -245,6 +245,16 @@
               </div>
             <?php endif;?>
           </div>
+          <?php if (isset($content['field_interesseomraader']['#items'][0])): ?>
+            <div class="block--light coral">
+              <h2 class="block--header">Interesseområder</h2>
+              <div class="block--content">
+                <div class="block--field-wrapper">
+                  <?php print render($content['field_interesseomraader']); ?>
+                </div>
+              </div>
+            </div>
+          <?php endif; ?>
           <div class="block--dark coral">
             <h2 class="block--header">
               <?php print t('Contact provider');?>
