@@ -1,1 +1,0 @@
-window.addEventListener("CookieInformationConsentGiven",function(e){var t,n;CookieInformation.getConsentGivenFor("cookie_cat_statistic")&&((t=document.createElement("script")).type="text/javascript",t.async=!0,t.src="//ssl.siteimprove.com/js/siteanalyze_273547.js",(n=document.getElementsByTagName("script")[0]).parentNode.insertBefore(t,n))},!1);
