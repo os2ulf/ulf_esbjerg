@@ -63,13 +63,23 @@
     <?php print $page; ?>
     <?php print $page_bottom; ?>
     <script type="text/javascript">
-      /*<![CDATA[*/
-      (function() {
-        var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
-        sz.src = '//siteimproveanalytics.com/js/siteanalyze_273521.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
-      })();
-      /*]]>*/
+      window._monsido = window._monsido || {
+        token: "qicjxuyqS_eQF7BLbUMezg",
+        statistics: {
+          enabled: true,
+          cookieLessTracking: false,
+          documentTracking: {
+            enabled: true,
+            documentCls: "monsido_download",
+            documentIgnoreCls: "monsido_ignore_download",
+            documentExt: [".pdf",".docx",".doc",".PDF",".DOC",".DOCX",".xls",".xlsx",".XLSX",".XLS",".ppt",".PPT",".PPTX",".pptx"],
+          },
+        },
+        heatmap: {
+          enabled: true,
+        },
+      };
     </script>
+    <script type="text/javascript" async src="https://app-script.monsido.com/v2/monsido-script.js"></script>
   </body>
 </html>
